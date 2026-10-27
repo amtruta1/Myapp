@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refer Page - Evella</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-brand">Evella</div>
+        <nav>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="product.html" class="nav-link">Product View</a>
+            <a href="register.html" class="nav-link">Register</a>
+            <a href="login.html" class="nav-link">Login</a>
+            <a href="profile.html" class="nav-link">Profile</a>
+            <a href="refer.html" class="nav-link active">Refer Page</a>
+        </nav>
+    </header>
+
+    <div class="page active">
+        <h2>Refer Page</h2>
+        <div class="form-container" style="max-width: 700px;">
+            <div class="product-img" style="height: 180px;">Referral Banner Image</div>
+            <div class="refer-stats">
+                <div class="stat-box">
+                    <h4>Total</h4>
+                    <span>500</span>
+                </div>
+                <div class="stat-box">
+                    <h4>Pending</h4>
+                    <span>22</span>
+                </div>
+                <div class="stat-box">
+                    <h4>Success</h4>
+                    <span>478</span>
+                </div>
+            </div>
+            <div class="input-group">
+                <label>Your Refer Code</label>
+                <input type="text" value="EVELLAREFER2026" readonly>
+            </div>
+            <div class="link-box">
+                <input type="text" value="https://evella.com/ref/user123" id="refLink" readonly>
+                <button class="btn" style="margin-top:0; width: 120px;" onclick="copyLink()">Copy Link</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
